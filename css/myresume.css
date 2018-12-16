@@ -69,7 +69,7 @@
 }
 .big_title_hr {
 	height: 4px;
-	background:rgba(40,68,231,0.9);
+	background:rgba(85,167,235,1.00);
 	width: 100%;
 	margin: 5px auto;
 	box-shadow: 0 1px 1px 2px rgba(34,43,211,0.6);
@@ -93,14 +93,14 @@
 	font-size: 20px;
 	line-height: 40px;
 	font-weight: 600;
-	color: rgba(236,230,230,1.00);
+	color:#F3F1F1;
 	text-indent: 17px;
 }
 .small_title span:nth-of-type(2)
 {
 	height: 2px;
 	width: 89%;
-	background: rgba(44,60,245,1.00);
+	background: rgba(106,173,243,1.00);
 	position: absolute;
 	top: 55%;
 	right: 0;
@@ -110,7 +110,7 @@
 	font-size: 16px;
 	margin-top: 30px;
 	margin-left: 30px;
-	color: rgba(68,121,245,1.00);
+	color: rgba(117,183,244,1.00);
 }
 .table1 tr
 {
@@ -122,7 +122,7 @@
 
 .studing_bg {
 	width: 100%;
-	color: rgba(68,121,245,1.00);
+	color: rgba(117,183,244,1.00);
 	font-size: 17px;
 	padding-top: 30px;
 	padding-left: 30px;
@@ -158,23 +158,85 @@
 }
 .my_ability_p{
 	margin-right: 20px;
-	color:rgba(44,60,245,1.00);
+	color:rgba(91,146,243,1.00);
 	font-weight: 600;
 }
 .my_ability_space{
-	color: rgba(68,121,245,1.00);
+	color: rgba(117,183,244,1.00);
 	margin-left: 2em;
 }
 
 .say_myself {
 	width: 100%;
-	color: rgba(68,121,245,1.00);
+	color: rgba(117,183,244,1.00);
 	font-size: 17px;
 	padding-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-indent: 2em;
 }
+
+.input_div
+{
+	margin-top: 26vh;
+}
+.my_input
+{
+	width: 100%;
+	height: 420px;
+}
+.my_input img
+{
+	height: 120px;
+}
+.cebter_p
+{
+	text-align: center;
+}
+.cebter_p a
+{
+	color: #388DE7;
+}
+.cebter_p a:hover
+{
+	color: #E74D4F;
+}
+.my_input p
+{
+	font-size: 15px;
+}
+.myform
+{
+	width: 280px;
+	margin: 0 auto;
+}
+.input_1
+{
+	float: left;
+	height: 30px;
+	margin-top: 2px;
+}
+.myform button
+{
+	float: left;
+	margin-left: 20px;
+}
+.error {
+	clear: both;
+	color: #F03D40;
+	-webkit-animation-delay:1s;
+	animation: errorp 0.6s;
+	display: none;
+}
+@keyframes errorp
+{
+	0%{margin-left: 0;}
+	25%{margin-left: 10px;}
+	50%{margin-left: 0px;}
+	75%{margin-left: 10px;}
+	100%{margin-left: 0px;}
+}
+
 
 @media screen and (max-width:990px)
 {
@@ -224,4 +286,45 @@
 	.studing_bg,.my_ability_space,.say_myself{
 		font-size: 26px;
 	}
+	.input_div
+	{
+		margin-top: 35vh;
+	}
+	.my_input img
+{
+	height: 200px;
 }
+.my_input h3,p
+{
+	text-align: center;
+	font-size: 43px;
+}
+.my_input p
+{
+	font-size: 29px;
+}
+	.myform
+{
+	width: 410px;
+	margin: 0 auto;
+}
+	.input_1
+{
+	font-size: 29px;
+	float: left;
+	height: 55px;
+	width: 300px;
+	margin-top: 2px;
+	border-top: 1px solid #8C8C8C;
+}
+	.myform button
+{
+	font-size: 24px;
+	float: left;
+	width: 80px;
+	height: 55px;
+}
+	
+}
+
+
